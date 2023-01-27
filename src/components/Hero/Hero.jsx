@@ -4,7 +4,9 @@ import HeroImg from '../../assets/hero.png'
 import { RiShoppingBagFill } from 'react-icons/ri'
 import { BsArrowRight } from 'react-icons/bs'
 
+
 const Hero = () => {
+
   return (
     <div className={css.container}>
 
@@ -18,8 +20,8 @@ const Hero = () => {
             </div>
             {/* middle side hero image */}
             <div className={css.wrapper}>
-                <div className={css.blueCircle}>
-                    <img src={HeroImg} alt="" width={570}/>
+                <div className={css.blueCircle}></div>
+                    <img src={HeroImg} alt="" width={600}/>
                     <div className={css.cart2}>
                         <RiShoppingBagFill />
 
@@ -35,7 +37,7 @@ const Hero = () => {
 
                     </div>
 
-                </div>
+            
                 {/* right-side */}
                 <div className={css.h_sides}>
                     <div className={css.traffic}>
@@ -47,8 +49,9 @@ const Hero = () => {
                         <span>Happy Customers</span>
                     </div>
                     </div>
+                </div>
                     
-    </div>
+    
   )
 }
 

@@ -1201,6 +1201,11 @@
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
 
+"@formkit/auto-animate@^1.0.0-beta.5":
+  version "1.0.0-beta.5"
+  resolved "https://registry.yarnpkg.com/@formkit/auto-animate/-/auto-animate-1.0.0-beta.5.tgz#3fe4d520a82909cdcffa8854f26bc26ca4562045"
+  integrity sha512-WoSwyhAZPOe6RB/IgicOtCHtrWwEpfKIZ/H/nxpKfnZL9CB6hhhBGU5bCdMRw7YpAUF2CDlQa+WWh+gCqz5lDg==
+
 "@humanwhocodes/config-array@^0.11.8":
   version "0.11.8"
   resolved "https://registry.yarnpkg.com/@humanwhocodes/config-array/-/config-array-0.11.8.tgz#03595ac2075a4dc0f191cc2131de14fbd7d410b9"
@@ -7421,6 +7426,11 @@ react-app-polyfill@^3.0.0:
     raf "^3.4.1"
     regenerator-runtime "^0.13.9"
     whatwg-fetch "^3.6.2"
+
+react-compare-image@^3.3.0:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/react-compare-image/-/react-compare-image-3.3.0.tgz#5666205f80ddbfeab56b1ae49d67e145482a4649"
+  integrity sha512-RNua/cBqosKFvMfI+GLdraUaTunhstsQoPi3DWvrAmCBoJRDVoLskxFsLDV4JNfFJMiRlcLyAAPKZoAA4f8Upw==
 
 react-dev-utils@^12.0.1:
   version "12.0.1"
