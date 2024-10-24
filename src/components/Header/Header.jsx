@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import css from './Header.module.css'
 import logo from '../../assets/logo.png'
 import { BsFillCartPlusFill } from 'react-icons/bs'
-import { GoThreeBars } from 'react-icons/go'
+import { FaBars } from "react-icons/fa";
 
  
 const Header = () => {
@@ -22,7 +22,7 @@ const toggleMenu = () => {
     </div>
     <div className={css.right}>
       <div className={css.bars} onClick={toggleMenu}>
-        <GoThreeBars />
+        <FaBars />
         </div>
 
         <ul className={css.menu}style={{display: showMenu? 'inherit':'none'}}>
